@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.all {
+    margin: auto;
+    max-width: 500px;
+    border: solid;
+    margin-top: 0%;
+    padding: 0%;
+    padding-top: 0%;
+    border: none;
+    border-style: dotted;
+}
+
+.head {
+    background-color: #FF6600;
+    color: white;
+}
+
+.head::before {
+    content: url("../images/title_bg.png");
+}
+
+.content {
+    list-style:square inside url("../images/li_bg.png");
+    background-color: #FFF5EE;
+    line-height: 30px;
+    /* margin-top: -4%; */
+}
+
+a:link,a:hover,a:active,a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
