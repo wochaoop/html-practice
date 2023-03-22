@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 需求一：给未访问过的超链接加红色字体 */
+      a:link {
+        color: red;
+      }
+      /* 需求二：给访问过的超链接加绿色字体 */
+      a:visited {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+      }
+ 
+      /* 需求三：鼠标移入，链接字体变大到30px */
+      a:hover {
+        font-size: 30px;
+      }
+ 
+      /* 需求四：鼠标点击后，增加背景色pink */
+      a:active {
+        background-color: pink;
+      }
+      /* 4、:active  鼠标点击后的状态 */
+ 
+      /* 总结：link和visited是a标签独有的状态，
+                hover和active是所有的元素都可以设置的
+                正确排序：L-V-H-A    love hate原则
+                       l（link）ov（visited）e h（hover）a（active）te */
+    </style>
+  </head>
+  <body>
+    <a href="https://www.baidu.com">百度(访问过的)</a>
+    <a href="https://www.jquery123.com/">jQuery</a>
+    <a href="https://qq.com">QQ（未访问过的）</a>
+    <a href="#">测试</a>
+    <p>逝关娇</p>
+  </body>
+</html>
+<!-- ————————————————
+版权声明：本文为CSDN博主「燕穗子博客」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/m0_64346035/article/details/124075325 -->
