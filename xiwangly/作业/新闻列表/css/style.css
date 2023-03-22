@@ -8,31 +8,30 @@
     padding: 0%;
     padding-top: 0%;
     border: none;
-    border-style: dotted;
+    background-color: #FFF5EE;
 }
 
 .head {
     background-color: #FF6600;
-    color: white;
+    color: #FFFFFF;
+    border-bottom: 10px #CC5200 solid;
 }
 
-.head::before {
+.head:before {
     content: url("../images/title_bg.png");
 }
 
 .content {
     list-style:square inside url("../images/li_bg.png");
-    background-color: #FFF5EE;
     line-height: 30px;
-    /* margin-top: -4%; */
 }
 
 a:link,a:hover,a:active,a:visited {
     text-decoration: none;
-    color: gray;
+    color: #666666;
 }
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color: gray;
+    text-decoration-color: #666666;
 }
