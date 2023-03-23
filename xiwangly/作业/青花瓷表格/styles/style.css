@@ -6,3 +6,7 @@
     word-wrap : break-word;
     width: min-content;
 }
+
+.sheet, td {
+    border: 1px solid;
+}
