@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* td[rowspan="4"]:nth-child(1) {
+    background-color: #3399ff;
+    background-image: url("../images/maci.jpg");
+}
+
+td[rowspan="4"]:nth-child(5) {
+    background-color: #ff3300;
+    background-image: url("../images/rehuo.jpg");
+} */
+
+table {
+    text-align: center;
+}
+
+.team1bg {
+    background-color: #c9c9c9;
+}
+
+.team2bg {
+    background-color: #F4e6e6;
+}
+
+.team1 {
+    background-image: url("../images/maci.jpg");
+}
+
+.team2 {
+    background-image: url("../images/rehuo.jpg");
+}
