@@ -8,73 +8,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>比赛数据统计表格</title>
-  <style>
-    table {
-      border-style: solid;
-      border-collapse:collapse;
-      border-width: 5px;
-      width: 100%;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    th,td {
-      border: 1px solid black;
-      padding: 8px;
-      text-align: center;
-    }
-    .team1{
-      background: url("image/maci.jpg");
-    }
-    .team1bg{
-      background: #f6f5f5;
-    }
-    .team2{
-      background: url("image/rehuo.jpg");
-    }
-    .team2bg{
-      background: #f4e6e6;
-    }
-  </style>
+    <title>比赛数据统计表格</title>
+    <style>
+        table {
+            border-style: solid;
+            border-collapse: collapse;
+            border-width: 5px;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .team1 {
+            background: url("image/maci.jpg");
+        }
+
+        .team1bg {
+            background: #f6f5f5;
+        }
+
+        .team2 {
+            background: url("image/rehuo.jpg");
+        }
+
+        .team2bg {
+            background: #f4e6e6;
+        }
+    </style>
 </head>
 <body>
 <table>
-  <thead>
-  <tr>
-    <th>球队名称</th>
-    <th>球员</th>
-    <th>夺冠次数</th>
-  </tr>
-  </thead>
-  <tbody class="team1bg">
-  <tr>
-    <td class="team1" rowspan="3">马刺队</td>
-    <td>邓肯</td>
-    <td rowspan="3">5次</td>
-  </tr>
-  <tr>
-    <td>帕克</td>
-  </tr>
-  <tr>
-    <td>吉诺比利</td>
-  </tr>
-  </tbody>
-  <tbody class="team2bg">
-  <tr>
-    <td class="team2" rowspan="3">波士顿凯尔特人队</td>
-    <td>詹姆斯</td>
-    <td rowspan="3">3次</td>
-  </tr>
-  <tr>
-    <td>韦德</td>
-  </tr>
-  <tr>
-    <td>波什</td>
-  </tr>
-  </tbody>
-  <tr>
-    <td colspan="3">比赛解说:黄翔健,姚明</td>
-  </tr>
+    <thead>
+    <tr>
+        <th>球队名称</th>
+        <th>球员</th>
+        <th>夺冠次数</th>
+    </tr>
+    </thead>
+    <tbody class="team1bg">
+    <tr>
+        <td class="team1" rowspan="3">马刺队</td>
+        <td>邓肯</td>
+        <td rowspan="3">5次</td>
+    </tr>
+    <tr>
+        <td>帕克</td>
+    </tr>
+    <tr>
+        <td>吉诺比利</td>
+    </tr>
+    </tbody>
+    <tbody class="team2bg">
+    <tr>
+        <td class="team2" rowspan="3">热火队</td>
+        <td>詹姆斯</td>
+        <td rowspan="3">3次</td>
+    </tr>
+    <tr>
+        <td>韦德</td>
+    </tr>
+    <tr>
+        <td>波什</td>
+    </tr>
+    </tbody>
+    <tr>
+        <td colspan="3">比赛解说:黄翔健,姚明</td>
+    </tr>
 </table>
 </body>
 </html>
