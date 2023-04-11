@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>会员注册</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="styles/city.css"> -->
+</head>
+
+<body>
+    <div class="background-image">
+        <form action="#">
+            <h2>会员注册</h2>
+            <p>
+                <label>性质：</label>
+                <input type="radio" name="property" id="property1" checked><label for="property1">个人</label>
+                <input type="radio" name="property" id="property2"><label for="property2">公司</label>
+            </p>
+            <p>
+                <label for="nickname">昵称：</label>
+                <input type="text" name="nickname" id="nickname" maxlength="6">
+            </p>
+            <p>
+                <label for="password">密码：</label>
+                <input type="password" name="password" id="password" minlength="6" required>
+            </p>
+            <p>
+                <label for="email">电子邮箱：</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p class="btn met1">
+                <label for="prov">所在地：</label>
+                <select id="prov">
+                    <option value="" onClick="showAddr()">=请选择所在地=</option>
+                </select>
+            </p>
+            <p>
+                <label for="idcard">身份证号：</label>
+                <input type="text" name="idcard" id="idcard" pattern="^[0-9]{8,18}(x|X)?$" required>
+            </p>
+            <p>
+                <label for="phone">手机号：</label>
+                <input type="tel" name="phone" id="phone" pattern="^[0-9]{11}$" required>
+            </p>
+            <p>
+                <label for="feedback">意见反馈：</label>
+                <textarea name="feedback" id="feedback" maxlength="6"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="提交">
+                <input type="reset" value="重置">
+            </p>
+        </form>
+    </div>
+    <script src="js/city.js"></script>
+    <script src="js/city02.js"></script>
+    <script src="js/city03.js"></script>
+    <script src="js/method01.js"></script>
+    <script src="js/method02.js"></script>
+    <script src="js/method03.js"></script>
+    <script src="js/method04.js"></script>
+</body>
+
+</html>
