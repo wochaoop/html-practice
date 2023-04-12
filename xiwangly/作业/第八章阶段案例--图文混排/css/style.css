@@ -1,0 +1,31 @@
+@charset "utf-8";
+dl {
+    list-style: none;
+}
+
+img {
+    float: right;
+    overflow: auto;
+    margin-top: -16px;
+}
+
+.box {
+    border: 10px solid blue;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.f-yellow {
+    color: rgb(13, 15, 140);
+}
+
+.box-text {
+    float: left;
+    width: 200px;
+}
