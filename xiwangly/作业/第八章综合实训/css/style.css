@@ -62,6 +62,10 @@
     background-color: #fff;
 }
 
+.num a {
+    background-color: #fff;
+}
+
 .num a:hover {
     background-color: #ffae00;
 }
