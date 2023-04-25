@@ -8,6 +8,8 @@
     background-color: white;
     border-style: solid;
     border-color: rgba(181, 181, 181, 0.8);
+    overflow: hidden;
+    bottom: 1px solid #666;
 }
 
 .ff {
@@ -72,4 +74,8 @@
 
 .num #a1 {
     background-color: #ffae00;
+}
+
+li {
+    display: inline-block;
 }
