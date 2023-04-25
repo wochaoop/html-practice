@@ -1,0 +1,37 @@
+@charset "utf-8";
+.frame {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 502px;
+    height: 401px;
+    background-image: url("../images/votebg.jpg");
+}
+
+.frame__image {
+    position: absolute;
+    margin: 0 auto;
+    width: 480px;
+    height: 330px;
+    margin-top: 29px;
+    margin-left: 11px;
+    background-image: url("../images/chuanzhi_bg.png");
+}
+
+.close {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 482px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/close.jpg");
+}
+
+.confirm {
+    position: absolute;
+    margin-top: 366px;
+    margin-left: 424px;
+    width: 64px;
+    height: 24px;
+    background-image: url("../images/tijiao.jpg");
+}
