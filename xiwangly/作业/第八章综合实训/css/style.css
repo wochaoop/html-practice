@@ -73,3 +73,7 @@
 .num #a1 {
     background-color: #ffae00;
 }
+
+li {
+    display: inline-block;
+}
