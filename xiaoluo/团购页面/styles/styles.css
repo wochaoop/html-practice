@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.father {
+    position: relative;
+    margin: 50px auto;
+    width: 320px;
+    height: 340px;
+    border: 1px solid #000;
+}
+
+h2 {
+    margin: 5px 10px;
+    font-weight: 400px;
+    font-size: 25px;
+}
+
+h2::after {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 3px;
+    content: '';
+    width: 35px;
+    height: 21px;
+    background-image: url(../images/new.gif);
+}
+
+img {
+    margin: 5px 10px;
+}
+
+.son {
+    position: relative;
+}
+
+ul {
+    position: absolute;
+    bottom: 10px;
+    right: 3px;
+    list-style: none;
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    color: #000;
+    border: 1px solid red;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+ul li a:hover {
+    background-color: yellow;
+}
+
+.foot {
+    margin: 5px 10px;
+}
+
+.foot .one {
+    color: #000;
+    font-size: 14px;
+}
+
+.two {
+    position: relative;
+    margin-top: 10px;
+    height: 35px;
+}
+
+.two p {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700px;
+    color: orange;
+}
+
+.two span {
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 8px;
+}
+
+.two button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 87px;
+    height: 35px;
+    background-image: url(../images/btn.jpg);
+    border: 0;
+}
