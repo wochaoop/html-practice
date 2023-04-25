@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.frame {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 320px;
+    height: 360px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(181, 181, 181, 0.8);
+}
+
+.ff {
+    position: absolute;
+    margin-left: 12px;
+}
+
+.content {
+    font-size: 14px;
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.btn {
+    position: absolute;
+    top: 310px;
+    right: 10px;
+}
+
+.price {
+    font-size: 30px;
+    color: rgba(255, 148, 70, 0.9);
+}
+
+.name {
+    font-weight: bold;
+    font-size: 15px;
+    color: #813a00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.num {
+    position: absolute;
+    top: 220px;
+    right: 30px;
+    z-index: 99;
+}
+
+.num a {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px red solid;
+    color: blue;
+    text-align: center;
+    line-height: 18px;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.num a {
+    background-color: #fff;
+}
+
+.num a:hover {
+    background-color: #ffae00;
+}
+
+.num #a1 {
+    background-color: #ffae00;
+}
