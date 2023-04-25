@@ -25,7 +25,7 @@ h2::after {
     content: '';
     width: 35px;
     height: 21px;
-    background-image: url(1.gif);
+    background-image: url(../images/new.gif);
 }
 
 img {
@@ -99,6 +99,6 @@ ul li a:hover {
     right: 0;
     width: 87px;
     height: 35px;
-    background-image: url(3.jpg);
+    background-image: url(../images/btn.jpg);
     border: 0;
 }
