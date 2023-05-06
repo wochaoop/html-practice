@@ -1,8 +1,6 @@
-@charset "UTF-8";
 .container {
     width: 150px;
     height: 230px;
-    border: 1px solid black;
     position: relative;
     perspective: 1000px;
 }
