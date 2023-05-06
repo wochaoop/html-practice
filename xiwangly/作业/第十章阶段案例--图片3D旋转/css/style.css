@@ -8,7 +8,9 @@
 }
 
 .img1,
-.img2 {
+.img2,
+.img3,
+.img4 {
     position: absolute;
     top: 0;
     left: 0;
@@ -17,10 +19,12 @@
     transform-origin: center center;
 }
 
-.img1:hover {
+.img1:hover,
+.img2:hover {
     transform: rotateY(180deg);
 }
 
-.img2:hover {
+.img3:hover,
+.img4:hover {
     transform: rotateX(180deg);
 }
