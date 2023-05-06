@@ -1,0 +1,24 @@
+.container {
+    width: 150px;
+    height: 230px;
+    position: relative;
+    perspective: 1000px;
+}
+
+.img1,
+.img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 2s;
+    backface-visibility: hidden;
+    transform-origin: center center;
+}
+
+.img1:hover {
+    transform: rotateY(180deg);
+}
+
+.img2:hover {
+    transform: rotateX(180deg);
+}
