@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .container {
     width: 150px;
-    height: 250px;
+    height: 230px;
     border: 1px solid black;
     position: relative;
     perspective: 1000px;
@@ -13,16 +13,8 @@
     top: 0;
     left: 0;
     transition: transform 2s;
-}
-
-.img1 {
-    transform-origin: center center;
     backface-visibility: hidden;
-}
-
-.img2 {
     transform-origin: center center;
-    backface-visibility: hidden;
 }
 
 .img1:hover {
