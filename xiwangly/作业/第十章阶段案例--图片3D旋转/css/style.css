@@ -16,21 +16,19 @@
 }
 
 .img1 {
-    transform-origin: left;
+    transform-origin: center center;
     backface-visibility: hidden;
 }
 
 .img2 {
-    transform-origin: top;
+    transform-origin: center center;
     backface-visibility: hidden;
 }
 
 .img1:hover {
     transform: rotateY(180deg);
-    transform-origin: center center;
 }
 
 .img2:hover {
     transform: rotateX(180deg);
-    transform-origin: center center;
 }
