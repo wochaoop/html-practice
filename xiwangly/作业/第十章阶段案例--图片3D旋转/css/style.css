@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.container {
+    width: 150px;
+    height: 250px;
+    border: 1px solid black;
+    position: relative;
+    perspective: 1000px;
+}
+
+.img1,
+.img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s;
+}
+
+.img1 {
+    transform-origin: left;
+    backface-visibility: hidden;
+}
+
+.img2 {
+    transform-origin: top;
+    backface-visibility: hidden;
+}
+
+.img1:hover {
+    transform: rotateY(180deg);
+}
+
+.img2:hover {
+    transform: rotateX(180deg);
+}
