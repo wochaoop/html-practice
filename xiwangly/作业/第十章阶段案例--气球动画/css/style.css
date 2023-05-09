@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.balloon {
+    width: 120px;
+    height: 120px;
+    background: url('../images/dd5b42e720abd54e338beb03783ba5c9.png') no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-20px);
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+}
